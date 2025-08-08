@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Zombie Game</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Zombie Game</h1>
+    <h2>Are You Ready for the Challenge?</h2>
+  </header>
+  <hr>
+  <div class="game-container">
+    <div id="player-panel" class="panel">
+      <h3>👤 Player</h3>
+      <p><strong>Name:</strong> Survivor</p>
+      <div class="health-bar">
+        <div id="user-health-fill" class="health-fill"></div>
+      </div>
+      <p><strong>Level:</strong> <span id="user-level">1</span></p>
+      <p><strong>XP:</strong> <span id="user-xp">0</span>/100</p>
+      <p><strong>Potions:</strong> <span id="user-potions">3</span></p>
+      
+      <button onclick="attackZombie()">⚔️ Attack Zombie</button>
+      <button onclick="heal()">🧪 Heal</button>
+      <button onclick="usePotion()">🧴 Use Potion</button>
+      <button onclick="specialAttack()">💥 Special Attack</button>
+      <button onclick="comboAttack()">🗡️ Combo Attack</button>
+    </div>
+
+    <div id="zombie-panel" class="panel">
+      <h3>🧟 Zombie</h3>
+      <p><strong>Name:</strong> Zombie</p>
+      <div class="health-bar">
+        <div id="zombie-health-fill" class="health-fill"></div>
+      </div>
+      <p><strong>Type:</strong> Tank</p>
+      <p><strong>Shield:</strong> <span id="zombie-shield">0</span></p>
+
+      <button onclick="zombieAttack()">🧬 Attack User</button>
+    </div>
+  </div>
+
+  <div class="log-container">
+    <h3><strong>Battle Log</strong></h3>
+    <hr>
+    <div id="log-box" class="log-box"></div>
+  </div>
+
+  <button onclick="restartGame()" class="restart-btn">🔄 Restart Game</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>

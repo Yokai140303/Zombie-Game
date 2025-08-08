@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+  background-image: url(./images/world-war-z-zombie-hordes-game-uhdpaper.com-4K-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header{
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+  
+}
+h1, h2 {
+  margin-bottom: 2px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.panel {
+  background-color: #323232;
+  color: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  box-shadow: white 2px 2px 5px;
+  transition: background-color 0.3s ease;
+}
+
+.health-bar {
+  width: 100%;
+  height: 25px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.health-fill {
+  height: 100%;
+  background-color: green;
+  width: 100%;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+button {  
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Damage flash effect */
+.damage {
+  background-color: #df3838 !important;
+}
+
+.life{
+  background-color: rgb(80, 219, 80);
+}
+
+.restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background-color: #0056b3;
+}
+
+.log-container{
+  border: 3px solid white;
+  box-shadow: white 2px 2px 5px;
+  color: white;
+  margin-top: 20px;
+  height: 200px;
+  width: 800px;
+  max-width: 800px;
+  max-height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 150px;
+
+}
