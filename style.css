@@ -7,7 +7,7 @@ body {
   background-image: url(./images/world-war-z-zombie-hordes-game-uhdpaper.com-4K-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   margin: auto;
 }
 
@@ -92,7 +92,7 @@ button {
   color: white;
   margin-top: 20px;
   height: 200px;
-  width: 800px;
+  width: 400px;
   max-width: 800px;
   max-height: 150px;
   margin-left: auto;
