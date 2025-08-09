@@ -7,7 +7,7 @@ body {
   background-image: url(./images/world-war-z-zombie-hordes-game-uhdpaper.com-4K-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   margin: auto;
 }
 
